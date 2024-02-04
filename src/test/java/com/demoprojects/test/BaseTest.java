@@ -20,7 +20,7 @@ public class BaseTest  {
 	
     protected com.business.demoprojects.BaseClass baseClass;
 
-    protected MLWalletWeb mlWalletWeb;
+
     
     protected ParaBankWeb paraBankWeb;
     protected AirlineDomainWeb airlineDomainWeb;
@@ -59,7 +59,7 @@ public class BaseTest  {
     			
     		case "Airline" :
     		     airlineDomainWeb=new AirlineDomainWeb();
-    		     break;
+    		     break; 
     		     
     		case "Insurance" :
     			insuranceDomainWeb=new InsuranceDomainWeb();

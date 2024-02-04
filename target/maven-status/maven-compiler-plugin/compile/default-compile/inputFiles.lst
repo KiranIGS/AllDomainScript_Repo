@@ -2,7 +2,6 @@ D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\driverInstance\Com
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\excel\ExcelUpdate.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\utility\ConfigurationGetter.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\emailReport\SendEmail.java
-D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\mlWalletWebPages\MLShopRingsPage.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\utility\ExcelUpdate.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\utility\JsonXRayTemplate.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\utility\Utilities.java
@@ -24,15 +23,11 @@ D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\deviceDetails\Devi
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\driverInstance\DriverInstance.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\mlWalletWebPages\ParabankLoginPage.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\utility\LoggingUtils.java
-D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\mlWalletWebPages\MLShopHomePage.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\propertyfilereader\PropertyFileReader.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\utility\RandomStringGenerator.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\mlWalletWebPages\InsuranceDomainPage.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\driverInstance\AppiumServer.java
-D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\business\demoprojects\MLWalletWeb.java
-D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\mlWalletWebPages\MLShopProfileLoginPage.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\utility\BasePage.java
-D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\mlWalletWebPages\MLShopWatchPage.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\emailReport\MailReport.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\metadata\APIResult.java
 D:\MLWalletFinalCode\Domain_Specific_Script\src\main\java\com\utility\DataUtility.java

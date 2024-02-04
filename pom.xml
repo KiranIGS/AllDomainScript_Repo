@@ -6,10 +6,10 @@
 	<groupId>ExcelIR</groupId>
 	<artifactId>ExcelIRProject</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<repositories>
+	<repositories> 
 		<repository>
 			<releases>
-				<enabled>true</enabled>
+				<enabled>true</enabled> 
 				<updatePolicy>always</updatePolicy>
 				<checksumPolicy>fail</checksumPolicy>
 			</releases>

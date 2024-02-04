@@ -36,7 +36,7 @@
 		<m2e.disableTestClasspathFlag>true</m2e.disableTestClasspathFlag> 	
 		<maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-		
+		<suiteXmlFile>paraBankWeb.xml</suiteXmlFile>
 	</properties>
 
 	<profiles>
@@ -330,8 +330,8 @@
 					<!--suppress UnresolvedMavenProperty -->
 					<groups>${groups}</groups>
 					<suiteXmlFiles>
-<!--						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
-												     <suiteXmlFile>paraBankWeb.xml</suiteXmlFile>
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+											<!-- 	     <suiteXmlFile>paraBankWeb.xml</suiteXmlFile>-->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Android]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://mlshoppreprod.mlhuillier.com/"/>
+  <parameter name="browserType" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.utility.ExtentReporter"/>
+  </listeners>
+  <test thread-count="1" name="MLWALLET(failed)">
+    <parameter name="portno" value="4723"/>
+    <parameter name="deviceName" value="emulator-5554"/>
+    <classes>
+      <class name="com.mlwallet.test.MLWalletWebScripts">
+        <methods>
+          <include name="shopItemsRingProductPurchaseScenario"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.mlwallet.test.MLWalletWebScripts -->
+    </classes>
+  </test> <!-- MLWALLET(failed) -->
+</suite> <!-- Failed suite [Android] -->

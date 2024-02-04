@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Web]" guice-stage="DEVELOPMENT">
+  <parameter name="domain" value="Banking"/>
+  <parameter name="url" value="https://para.testar.org/parabank/index.htm?ConnType=JDBC"/>
+  <parameter name="browserType" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.utility.ExtentReporter"/>
+  </listeners>
+  <test thread-count="1" name="MLWALLET(failed)">
+    <parameter name="portno" value="4723"/>
+    <parameter name="deviceName" value="emulator-5554"/>
+    <classes>
+      <class name="com.demoprojects.test.ParaBankingWebScripts">
+        <methods>
+          <include name="afterTest"/>
+          <include name="TransferFundForParaBank"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.demoprojects.test.ParaBankingWebScripts -->
+    </classes>
+  </test> <!-- MLWALLET(failed) -->
+</suite> <!-- Failed suite [Web] -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-04T23:17:50 IST" name="Web" finished-at="2024-02-04T23:18:21 IST" duration-ms="31312">
+    <groups>
+    </groups>
+    <test started-at="2024-02-04T23:17:50 IST" name="MLWALLET" finished-at="2024-02-04T23:18:21 IST" duration-ms="31312">
+      <class name="com.demoprojects.test.ParaBankingWebScripts">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.demoprojects.test.ParaBankingWebScripts@70dd7e15]" started-at="2024-02-04T23:17:50 IST" name="beforeMethod" finished-at="2024-02-04T23:17:53 IST" duration-ms="3563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TransferFundForParaBank()[pri:3, instance:com.demoprojects.test.ParaBankingWebScripts@70dd7e15]" started-at="2024-02-04T23:17:53 IST" name="TransferFundForParaBank" finished-at="2024-02-04T23:18:18 IST" duration-ms="25197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransferFundForParaBank -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.demoprojects.test.ParaBankingWebScripts@70dd7e15]" started-at="2024-02-04T23:18:18 IST" name="afterTest" finished-at="2024-02-04T23:18:21 IST" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.demoprojects.test.ParaBankingWebScripts -->
+    </test> <!-- MLWALLET -->
+  </suite> <!-- Web -->
+</testng-results>
